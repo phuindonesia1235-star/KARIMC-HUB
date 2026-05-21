@@ -2,7 +2,7 @@ repeat task.wait() until game:IsLoaded()
 local Player = game.Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
 
--- Đã sửa chuẩn chữ hoa/thường của link gốc SyzenHub
+-- Đã sửa chuẩn chữ viết thường zombie arena
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Black69Weeds/Scripts/main/SyzenHub%20Survive%20zombie%20arena.lua"))()
 
 local KarimcGui = Instance.new("ScreenGui")
